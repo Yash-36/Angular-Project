@@ -1,0 +1,47 @@
+<p>-------String Pipes</p>
+{{ title | uppercase }}
+<br>
+{{ title | lowercase }}
+<br>
+{{ title | titlecase }}
+<br>
+{{ title | slice : 4 }}
+<br>
+{{ title | slice : 1 : 4 }}
+
+<!-- Number Pipes -->
+<!-- {{ salary | number : '1.2-3'}} -->
+
+<br /><br />
+
+<p>----------percentage Pipes</p>
+{{ per | percent }}
+
+<br /><br />
+
+<p>--------currency Pipes</p>
+{{ salary | currency }}
+<br />
+{{ salary | currency : "INR" }}
+
+<br /><br />
+
+<p>----------Json</p>
+{{ person | json }}
+
+<br><br>
+<p>----------Date</p>
+{{ mydate | date }}
+<br>
+{{ mydate | date : "short"}}
+<br>
+{{ mydate | date : "shortDate"}}
+<br>
+{{ mydate | date : "shortTime"}}
+<br>
+{{ mydate | date : "long"}}
+<br>
+{{ mydate | date : "d/M/y"}}
+
+<br><br>
+
